@@ -1,0 +1,211 @@
+
+INPUT PROGRAM ::
+
+#include<stdio.h>
+main()
+//single line comment
+{
+int a,b,c,d;
+/*
+ * nfghh
+*/
+a=10;
+scanf("%d",&b);
+c=a+b;
+d=c/a;
+for(int i=0;i<a;i++)
+{
+printf("Hello");
+}
+printf("%d%d",c,d);
+}
+
+
+TERMINAL TABLE ::
+
+|-------+---------+
+| Index |  Symbol |
++-------+---------+
+|      1|       = |
+|      2|       , |
+|      3|       < |
+|      4|       > |
+|      5|       . |
+|      6|       _ |
+|      7|       ( |
+|      8|       ) |
+|      9|       ; |
+|     10|       $ |
+|     11|       : |
+|     12|       % |
+|     13|       [ |
+|     14|       ] |
+|     15|       # |
+|     16|       ? |
+|     17|       ' |
+|     18|       & |
+|     19|       { |
+|     20|       } |
+|     21|       " |
+|     22|       ^ |
+|     23|       ! |
+|     24|       * |
+|     25|       / |
+|     26|       | |
+|     27|       - |
+|     28|       \ |
+|     29|       ~ |
+|     30|       + |
+|     31| include |
+|     32|   break |
+|     33|    case |
+|     34|    char |
+|     35|   const |
+|     36|continue |
+|     37| default |
+|     38|      do |
+|     39|  double |
+|     40|    else |
+|     41|    enum |
+|     42|  extern |
+|     43|   float |
+|     44|     for |
+|     45|    goto |
+|     46|      if |
+|     47|     int |
+|     48|    long |
+|     49|register |
+|     50|  return |
+|     51|   short |
+|     52|  signed |
+|     53|  sizeof |
+|     54|  static |
+|     55|  struct |
+|     56|  switch |
+|     57| typedef |
+|     58|   union |
+|     59|unsigned |
+|     60|    void |
+|     61|volatile |
+|     62|   while |
+|     63|    auto |
+|     64|      <= |
+|     65|      >= |
+|     66|      != |
+|     67|      == |
+|     68|      += |
+|     69|      -= |
+|     70|      *= |
+|     71|      ++ |
+|     72|     --
+ |
++-------+---------+
++----------+--------+---------+
+|  Symbol  |  TYPE  |  INDEX  |
++----------+--------+---------+
+|         #|     TRM|       15|
+|   include|     TRM|       31|
+|   stdio.h|     IDN|        1|
+|      main|     IDN|        2|
+|         (|     TRM|        7|
+|         )|     TRM|        8|
+|         {|     TRM|       19|
+|       int|     TRM|       47|
+|         a|     IDN|        3|
+|         ,|     TRM|        2|
+|         b|     IDN|        4|
+|         ,|     TRM|        2|
+|         c|     IDN|        5|
+|         ,|     TRM|        2|
+|         d|     IDN|        6|
+|         ;|     TRM|        9|
+|         a|     IDN|        3|
+|         =|     TRM|        1|
+|        10|     LIT|        1|
+|         ;|     TRM|        9|
+|     scanf|     IDN|        7|
+|         (|     TRM|        7|
+|         "|     TRM|       21|
+|        %d|     LIT|        2|
+|         "|     TRM|       21|
+|         ,|     TRM|        2|
+|         &|     TRM|       18|
+|         b|     IDN|        4|
+|         )|     TRM|        8|
+|         ;|     TRM|        9|
+|         c|     IDN|        5|
+|         =|     TRM|        1|
+|         a|     IDN|        3|
+|         +|     TRM|       30|
+|         b|     IDN|        4|
+|         ;|     TRM|        9|
+|         d|     IDN|        6|
+|         =|     TRM|        1|
+|         c|     IDN|        5|
+|         /|     TRM|       25|
+|         a|     IDN|        3|
+|         ;|     TRM|        9|
+|       for|     TRM|       44|
+|         (|     TRM|        7|
+|       int|     TRM|       47|
+|         i|     IDN|        8|
+|         =|     TRM|        1|
+|         0|     LIT|        3|
+|         ;|     TRM|        9|
+|         i|     IDN|        8|
+|         <|     TRM|        3|
+|         a|     IDN|        3|
+|         ;|     TRM|        9|
+|         i|     IDN|        8|
+|        ++|     TRM|       71|
+|         )|     TRM|        8|
+|         {|     TRM|       19|
+|    printf|     IDN|        9|
+|         (|     TRM|        7|
+|         "|     TRM|       21|
+|     Hello|     LIT|        4|
+|         "|     TRM|       21|
+|         )|     TRM|        8|
+|         ;|     TRM|        9|
+|         }|     TRM|       20|
+|    printf|     IDN|        9|
+|         (|     TRM|        7|
+|         "|     TRM|       21|
+|      %d%d|     LIT|        5|
+|         "|     TRM|       21|
+|         ,|     TRM|        2|
+|         c|     IDN|        5|
+|         ,|     TRM|        2|
+|         d|     IDN|        6|
+|         )|     TRM|        8|
+|         ;|     TRM|        9|
+|         }|     TRM|       20|
++----------+--------+---------+
+
+IDENTIFIER TABLE ::
+
+|-------+---------+
+| Index |  Symbol |
++-------+---------+
+|      1| stdio.h |
+|      2|    main |
+|      3|       a |
+|      4|       b |
+|      5|       c |
+|      6|       d |
+|      7|   scanf |
+|      8|       i |
+|      9|  printf |
++-------+---------+
+
+LITERAL TABLE ::
+
+|-------+---------+
+| Index |  Symbol |
++-------+---------+
+|      1|      10 |
+|      2|      %d |
+|      3|       0 |
+|      4|   Hello |
+|      5|    %d%d |
++-------+---------+
