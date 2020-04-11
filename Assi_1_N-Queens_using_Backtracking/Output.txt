@@ -1,0 +1,99 @@
+Enter the size of chessboard :: 4
+
+***************************************************
+
+
+Queen 1 placed at 1
+Queen: 2, Row: 2, Column: 1
+Queen: 2, Row: 2, Column: 2
+Queen 2 placed at 2
+Queen: 3, Row: 3, Column: 1
+Queen: 3, Row: 3, Column: 2
+Queen: 3, Row: 3, Column: 3
+Queen: 3, Row: 3, Column: 4
+Queen 2 placed at 2
+Queen: 3, Row: 3, Column: 1
+Queen 3 placed at 3
+Queen: 4, Row: 4, Column: 1
+Queen: 4, Row: 4, Column: 2
+Queen: 4, Row: 4, Column: 3
+Queen: 4, Row: 4, Column: 4
+Queen: 3, Row: 3, Column: 3
+Queen: 3, Row: 3, Column: 4
+Queen 1 placed at 1
+Queen: 2, Row: 2, Column: 1
+Queen: 2, Row: 2, Column: 2
+Queen: 2, Row: 2, Column: 3
+Queen 2 placed at 2
+Queen 3 placed at 3
+Queen: 4, Row: 4, Column: 1
+Queen: 4, Row: 4, Column: 2
+Queen 4 placed at 4
+
+****************************************************
+
+Solution 1 :: 
+*	Q	*	*	
+*	*	*	Q	
+Q	*	*	*	
+*	*	Q	*	
+
+
+****************************************************
+
+
+****************************************************
+
+Queen: 4, Row: 4, Column: 4
+Queen: 3, Row: 3, Column: 2
+Queen: 3, Row: 3, Column: 3
+Queen: 3, Row: 3, Column: 4
+Queen 1 placed at 1
+Queen 2 placed at 2
+Queen: 3, Row: 3, Column: 1
+Queen: 3, Row: 3, Column: 2
+Queen: 3, Row: 3, Column: 3
+Queen 3 placed at 3
+Queen: 4, Row: 4, Column: 1
+Queen 4 placed at 4
+
+****************************************************
+
+Solution 2 :: 
+*	*	Q	*	
+Q	*	*	*	
+*	*	*	Q	
+*	Q	*	*	
+
+
+****************************************************
+
+
+****************************************************
+
+Queen: 4, Row: 4, Column: 3
+Queen: 4, Row: 4, Column: 4
+Queen: 2, Row: 2, Column: 2
+Queen: 2, Row: 2, Column: 3
+Queen: 2, Row: 2, Column: 4
+Queen 1 placed at 1
+Queen 2 placed at 2
+Queen: 3, Row: 3, Column: 1
+Queen: 3, Row: 3, Column: 2
+Queen 3 placed at 3
+Queen: 4, Row: 4, Column: 1
+Queen: 4, Row: 4, Column: 2
+Queen: 4, Row: 4, Column: 3
+Queen: 4, Row: 4, Column: 4
+Queen: 3, Row: 3, Column: 4
+Queen 2 placed at 2
+Queen: 3, Row: 3, Column: 1
+Queen: 3, Row: 3, Column: 2
+Queen: 3, Row: 3, Column: 3
+Queen: 3, Row: 3, Column: 4
+Queen: 2, Row: 2, Column: 3
+Queen: 2, Row: 2, Column: 4
+
+Number of solutions :: 2
+
+***************************************************
