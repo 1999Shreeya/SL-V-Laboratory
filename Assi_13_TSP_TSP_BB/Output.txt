@@ -1,0 +1,15 @@
+
+Enter number of cities :: 5
+
+
+Enter cost matrix ::
+0 3 1 5 8
+3 0 6 7 9
+1 6 0 4 2
+5 7 4 0 3
+8 9 2 3 0
+
+
+TSP Path :: 1 -> 2 -> 4 -> 5 -> 3 -> 1
+
+Total Cost is 16

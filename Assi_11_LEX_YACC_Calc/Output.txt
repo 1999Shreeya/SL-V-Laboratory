@@ -1,0 +1,31 @@
+user@user-VirtualBox:~$ lex Sci_calc.l
+lex: can't open Sci_calc.l
+user@user-VirtualBox:~$ clear
+user@user-VirtualBox:~$ cd Assi_11/
+user@user-VirtualBox:~/Assi_11$ lex Sci_calc.l
+user@user-VirtualBox:~/Assi_11$ yacc -d Sci_calc.y
+user@user-VirtualBox:~/Assi_11$ cc lex.yy.c y.tab.c -ll -ly -lm
+user@user-VirtualBox:~/Assi_11$ ./a.out
+
+
+Enter expression :: 2+5*3
+
+Answer :: 17
+
+
+Enter expression :: 9-
+
+Syntax ERROR
+
+Enter expression :: sin(5)   
+
+Answer :: -0.958924
+
+
+Enter expression :: h
+
+Syntax ERROR
+
+
+Enter expression :: 
+

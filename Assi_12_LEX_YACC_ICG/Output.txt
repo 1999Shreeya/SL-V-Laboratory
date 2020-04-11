@@ -1,0 +1,22 @@
+user@user-VirtualBox:~$ cd Assi_12
+user@user-VirtualBox:~/Assi_12$ lex ICG_while.l
+user@user-VirtualBox:~/Assi_12$ yacc -d ICG_while.y
+user@user-VirtualBox:~/Assi_12$ cc y.tab.c -ll -ly
+user@user-VirtualBox:~/Assi_12$ ./a.out
+
+
+Enter the expression :: while(a=c+d) a=c+d*4;
+
+
+L1 : 
+t0 = c + d
+a = t0
+t1 = not a
+if t1 goto End
+t2 = d * 4
+t3 = c + t2
+a = t3
+goto L1
+while loop ends
+
+user@user-VirtualBox:~/Assi_12$ 
